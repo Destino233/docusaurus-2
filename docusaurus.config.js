@@ -67,7 +67,7 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Docs',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
@@ -81,10 +81,10 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Docs 文档',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Docs 文档',
                 to: '/docs/intro',
               },
             ],
