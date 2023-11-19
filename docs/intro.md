@@ -1,47 +1,108 @@
----
-sidebar_position: 1
----
+# 入服指南 | Space Creator EX
 
-# Tutorial Intro
+*Aug 19, 2022*
 
-Let's discover **Docusaurus in less than 5 minutes**.
+*此页面内容尚未完全确定，后续可能会有内容变更*
 
-## Getting Started
+写在前面：提问的智慧
 
-Get started by **creating a new site**.
+请先自己尝试解决问题，大部分常规问题在各大论坛和搜索引擎上都能寻得解决方案，请善用搜索引擎。
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+务必仔细阅读 README，群公告，本页面以下的指南部分。这些地方一般都写有某些软件等的正确使用方法，以及我们收集的常见问题解答。
 
-### What you'll need
+如以上内容都无法解决您的问题，请考虑在群内提问。提问时务必清楚描述您的问题。如果有，请务必附带上日志/崩溃报告/与问题相关的完整且清晰的屏幕截图等材料。
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+引用 MossFrp 交流群内的一句话：
 
-## Generate a new site
+不看文档用软件无异于盲人摸象
+不给日志修问题无异于闭眼开车
 
-Generate a new Docusaurus site using the **classic template**.
+## 关于此服务器
 
-The classic template will automatically be added to your project after you run the command:
+联系方式
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+QQ 群聊: 362344872
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+服务器的所有消息都会在此群内发布.
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+注意：服务器开启正版验证，这意味着您需要一个可以通过 mojang/Microsoft 验证的 Minecraft 账户来进入服务器。
 
-## Start your site
+## 分发
 
-Run the development server:
+本服务器使用 ServerSync. 这个软件可以帮助你获得最新的 Mods 和 FTB Quests 文件等.
 
-```bash
-cd my-website
-npm run start
-```
+各周目使用整合包版权归整合包著作权持有人所有.
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
+本服务器和整合包含的所有 Mods 的著作权归 Mod 各自的著作权持有人所有.
 
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
+PCL 2 和 ServerSync 的著作权同上.
 
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+## 规则
+
+- 相亲相爱, 互相帮助, 不得互相伤害, 不得偷盗抢劫, 不得寻衅滋事, 不得主动挑起争端, 在其他友善的人需要帮助时积极友善地施以援手。
+
+- 飞天意面神教 SimMC Wiki Fandom（部分改动）
+
+此处没有像其他服务器一样的具体条条框框，您的行为更多被您的高尚情操和道德所限制，因此，还请不要故意做出出格的事情。
+
+说实在，探寻网络而独立于现实，何尝不是追寻心中的美好呢？
+
+您来了，为了心中的美好和欢乐，和服里的朋友一起建设这美好和欢乐，所以这里建议将心比心，将别人的美好和快乐作为您快乐的一部分。
+
+希望我们在这里能共建这美好。
+
+### 强制性规则
+
+不允许在本服务器 QQ 群组、服务器 chat 或 KOOK 服务器频道等平台发布非全年龄段内容（包括NSFW1、NSFL1等内容）、政治相关（包括键政）等内容。
+
+如您违反，您将被从服务器相关的所有平台中移除，您的 Minecraft 账户将被加入服务器黑名单，相关聊天记录将存档备用。没有第二次机会。
+
+这是唯一一条硬性规则。
+
+### 建议性规则
+
+此部分是出于保证社群内的正常环境而设立。与强制性规则不同的是，其没有对应的强制性处理措施。
+
+通用内容
+
+- 若不确定已损坏设备的原理/用途等，不建议维修此设备，更好的做法是告知设备所有者。
+
+- 不应破坏明确说明为公共设施的任何设备，不建议在未告知所有者的情况下使用他人设备。
+
+养老部分子服适用
+
+出于服务器不换周目的原因，请不要对地形做出大规模无意义的改动。
+
+进入服务器，即视为您知情并同意此文档所述规则相关的所有内容。
+
+## 关于服务器管理组人员
+
+管理组人员为负责服务器运维工作，持有 op 权限的人员。他们会负责处理服务器相关的问题、维护服务器的正常运行以及监督玩家遵守规则。
+
+如果您在服务器上遇到问题或需要寻求帮助，请及时联系管理组人员。他们将尽力提供支持和解决您的问题。
+
+管理组人员有权根据情况对违反规则的玩家进行警告、处罚甚至封禁。请遵守规则并与管理组人员保持良好的沟通和合作。
+
+## 常见问题解答
+
+这部分将回答一些常见的问题和疑问，帮助玩家更好地了解服务器和解决问题。
+
+**问题：我遇到了服务器崩溃或其他技术性问题，应该怎么办？**
+
+解答：如果您遇到了服务器崩溃或其他技术性问题，请将问题详细描述并尽可能提供相关的日志、崩溃报告或屏幕截图等信息。您可以在群内提问或联系管理组人员，他们将尽力帮助您解决问题。
+
+**问题：我想了解服务器中的特殊功能或活动，应该去哪里查找信息？**
+
+解答：您可以查阅服务器的 README 文件、群公告或游戏内的相关提示信息。这些地方通常包含了服务器的特殊功能、活动或事件的说明。如果仍然有疑问，您可以向管理组人员咨询。
+
+**问题：我在游戏中遇到了其他玩家的不当行为，应该如何处理？**
+
+解答：如果您在游戏中遇到了其他玩家的不当行为，例如辱骂、骚扰或破坏行为，请及时向管理组人员举报并提供相关证据。管理组人员将根据情况进行处理并采取相应的措施。
+
+## 结语
+
+感谢您阅读入服指南，希望这些信息能帮助您更好地了解服务器并享受游戏的乐趣。如果您有任何其他问题或需要进一步的帮助，请随时与我们联系。
+
+祝您在服务器中度过愉快的时光！
+
+*此页面内容可能会有变更，请以最新的指南为准。*
