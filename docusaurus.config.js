@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'FAQ WIKI',
   tagline: '你想知道的 都在这里',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://wiki.destino.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
