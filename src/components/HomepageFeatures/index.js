@@ -12,12 +12,30 @@ const FeatureList = [
       </>
     ),
   },
+  {
+    title: '无限进步',
+    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    description: (
+      <>
+        加入社区，与来自世界各地的玩家共同讨论
+      </>
+    ),
+  },
+  {
+    title: 'Powered by Github/Vercel',
+    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    description: (
+      <>
+        网站现托管在Vercel
+      </>
+    ),
+  },
 ];
 
-function Feature({ Svg, title, description }) {
+function Feature({Svg, title, description}) {
   return (
     <div className={clsx('col col--4')}>
-      <div style={{ textAlign: 'center' }}>
+      <div className="text--center">
         <Svg className={styles.featureSvg} role="img" />
       </div>
       <div className="text--center padding-horiz--md">
