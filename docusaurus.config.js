@@ -24,7 +24,7 @@ const config = {
   // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'zh-Hans',
-    locales: ['zh-Hans'],
+    locales: ['zh-Hans','en'],
   },
 
   presets: [
@@ -129,4 +129,14 @@ const config = {
     }),
 };
 
-module.exports = config;
+module.exports = {
+  themeConfig: {
+    navbar: {
+      items: [
+        {
+          type: 'localeDropdown',
+        },
+      ],
+    },
+  },
+};
