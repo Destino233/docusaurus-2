@@ -130,13 +130,28 @@ const config = {
 };
 
 module.exports = {
+  // ...
   themeConfig: {
     navbar: {
       items: [
         {
-          type: 'localeDropdown',
+          type: 'dropdown',
+          label: 'Language',
+          position: 'right',
+          items: [
+            {
+              label: 'English',
+              to: '/',
+            },
+            {
+              label: '中文',
+              to: '/zh',
+            },
+            // 添加更多语言选项...
+          ],
         },
       ],
     },
   },
+  // ...
 };
