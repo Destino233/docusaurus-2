@@ -7,12 +7,12 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'FAQ WIKI',
-  tagline: '你想知道的 都在这里',
+  tagline: '关于FAQ/朝樱沐——都在这里',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/b_6bfdbb3260c790bd4c775705484ad0fd.jpg',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.

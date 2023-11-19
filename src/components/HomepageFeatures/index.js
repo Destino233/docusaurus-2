@@ -8,7 +8,7 @@ const FeatureList = [
     Svg: require('@site/static/img/ico.svg').default,
     description: (
       <>
-        在这里你可以找到所有关于FAQ服务器的问题
+        朝樱沐子服务器<code>FAQ生电服</code>由<code>Leaves服务端</code>强劲支持
       </>
     ),
   },
