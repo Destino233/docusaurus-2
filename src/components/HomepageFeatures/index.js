@@ -4,17 +4,16 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'MC 启动！',
+    Svg: require('@site/static/img/ico.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        在这里你可以找到所有关于FAQ服务器的问题
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: '',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
