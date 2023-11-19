@@ -6,7 +6,11 @@
 
 >- *目前服务器运行压力较小，暂不考虑升级内存*
 
-服务端：Leaves [Github链接]()
+服务端：Leaves [Github链接(别忘了点个Star)](https://github.com/LeavesMC/Leaves)
+版本：1.20.1 
+>由于mojang修改了村民交易机制，所以暂时不会升级到新版本
+
+
 
 ## 生电服配置文件
 为什么要放配置文件？ 我也不知道（bushi
