@@ -14,7 +14,7 @@
 /** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
 const sidebars = {
   FAQ: [
-    'FAQ/README',
+    'FAQ/FAQ',
     {
       type: 'category',
       label: 'Getting Started',
