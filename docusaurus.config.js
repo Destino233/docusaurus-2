@@ -10,8 +10,8 @@ const config = {
   tagline: '关于FAQ/朝樱沐——都在这里',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenLinks: 'log',
+  onBrokenMarkdownLinks: 'log',
   favicon: 'img/b_6bfdbb3260c790bd4c775705484ad0fd.jpg',
 
   // GitHub pages deployment config.
@@ -24,7 +24,7 @@ const config = {
   // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'zh-Hans',
-    locales: ['zh-Hans','en'],
+    locales: ['zh-Hans'],
   },
 
   presets: [
@@ -65,7 +65,7 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'FAQ/README',
+            docId: 'README',
             position: 'left',
             label: 'Docs',
           },
@@ -85,7 +85,7 @@ const config = {
             items: [
               {
                 label: 'Docs 文档',
-                to: '/docs/intro',
+                to: '/docs',
               },
             ],
           },

@@ -14,17 +14,17 @@
 /** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
 const sidebars = {
   FAQ: [
-    'FAQ/README',
+    'README',
     {
       type: 'category',
       label: 'Getting Started',
       collapsed: false,
       items: [
-        'FAQ/getting-started/intro',
-        'FAQ/getting-started/config',
+        'getting-started/intro',
+        'getting-started/config',
       ],
     },
-    'FAQ/fakeplayer',
+    'fakeplayer',
   ],
 };
 
